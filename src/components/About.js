@@ -13,10 +13,29 @@ const About = () => {
         { id: 5, title: 'GitHub', text: 'Vllaadd'}
     ])
     return ( 
-        <div>
-            <h1>{header.subHeader}</h1>
-            <p>{header.text}</p>
+        <div className='container'>
+            <div className='common'>
+            <h1 className='mainHeader'>{header.subHeader}</h1>
+            <p className='mainContent'>{header.text}</p>
         </div>
+        <div className='col-6'>
+            <div className='about_info'>
+                <h1>Hi There</h1>
+                <p className='about_info-p1'>
+                    Welcome to my page kind of text comes here.
+                </p>
+            </div>
+        </div>
+        <div className='info_contacts'>
+            {state.map((info) =>(
+                <div>
+                    <strong>{info.title}</strong>
+                    <p>{info.text}</p>
+                </div>
+            ))}
+        </div>
+        </div>
+        
      );
 }
  
