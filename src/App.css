@@ -4,18 +4,18 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
+body  {
+    font-family: 'Poppins', sans-serif; 
 }
 
-.header{
+/* .header{
     width: 100%;
     height: 100vh;
-    /* background: url('/images/portfolio_backgroun.jpg'); */
+    background: url('/images/portfolio_backgroun.jpg'); 
     background-repeat: no-repeat;
     background-size: cover; 
     overflow: hidden;
-}
+} */
 
 .navbar{
     width: 100%;
@@ -30,20 +30,20 @@ body{
     display: flex;
     height: 100px;
     align-items: center;
-    justify-content: space-between;
+    justify-content:end;
 }
 
-.navbar_left-logo ing{
-    width: 110px;
+.navbar_left-logo img{
+    width: 100px;
 }
 
 .navbar_right li a{
     text-decoration: none ;
-    color: #ffff;
+    color: #fff;
     font-weight: 500;
     font-size: 18px;
     padding: 0 15px;
-}
+} 
 
 .navbar_right{
     display: flex;
