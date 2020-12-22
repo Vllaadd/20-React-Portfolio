@@ -8,14 +8,13 @@ body  {
     font-family: 'Poppins', sans-serif; 
 }
 
-/* .header{
+.header{
     width: 100%;
     height: 100vh;
-    background: url('/images/portfolio_backgroun.jpg'); 
     background-repeat: no-repeat;
     background-size: cover; 
     overflow: hidden;
-} */
+}
 
 .navbar{
     width: 100%;
@@ -105,3 +104,24 @@ body  {
     line-height: 40px;
     margin-bottom: 50px;
 }
+
+.btn{
+    outline: none;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+}
+.btn-outline{
+    border: 2px solid #ff4a57;
+    border-radius: 50px;
+    padding: 13px 40px;
+}
+
+.banner__img {
+    max-width: 100%;
+    height: 150%;
+  }
+
+  img{
+      width: 100%;
+  }

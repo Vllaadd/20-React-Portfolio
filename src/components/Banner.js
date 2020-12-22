@@ -3,8 +3,11 @@ import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare, FaLinkedin } from
 
 
 const Banner = () =>{
+    const styles = {
+        background: "url('/images/portfolio_backgroun.jpg')" 
+    };
     return (
-        <header className='header'>
+        <header style={styles} className='header'>
             <div className='container'>
                 <div className='row'>
                     <div className='col-6'>
@@ -22,11 +25,16 @@ const Banner = () =>{
                                     <a href='' className='btn btn-outline'>
                                         My Portfolio
                                     </a>
+                                    &nbsp;&nbsp;&nbsp;
                                 </div>
                             </div>  
                         </div>
                     </div>
-
+                    <div className='col-6'>
+                        <div className='banner_img'>
+                            <img src='/images/moi.png' alt='developer' />
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
