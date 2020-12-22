@@ -9,7 +9,7 @@ const Portfolio = () => {
     const [state] = useState([
         {
             id: 1,
-            heading: 'Project 1',
+            heading: 'Safe Page',
             text: 'This project is about safe space, positivity, meantal health. It was created in especially challening year for most of the people, 2020.'
         },{
             id: 1,
@@ -17,11 +17,11 @@ const Portfolio = () => {
             text: 'This is a dashboard with weather forecast for a city we type in'
         },{
             id: 1,
-            heading: 'Fitness Tracker',
-            text: 'Users can track their workout with this application.'
+            heading: 'Hook Up In Your Hood',
+            text: 'When you feel like hooking up in your hood, use our app to stay safe.'
         },{
             id: 1,
-            heading: 'Project 2',
+            heading: 'Pollife',
             text: 'This is an app where we are able to send this app to our friends who can vote for which restaurant, bar, vacation we wanna do.'
         },{
             id: 1,
@@ -43,10 +43,10 @@ const Portfolio = () => {
                     <div className="row bgMain">
                         {state.map((info) => (
                             <div className="col-4 bgMain">
-                                <div className="projects__box">
+                                <div className='projects__box'>
                                     {info.icon}
-                                    <div className="projects_box-header">{info.heading}</div>
-                                    <div className="projects_box-p">{info.text}</div>
+                                    <div className='projects_box-header'>{info.heading}</div>
+                                    <div className='projects_box-p'>{info.text}</div>
                                 </div>
                             </div>
                         ))}
