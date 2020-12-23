@@ -57,7 +57,7 @@ const Portfolio = () => {
                                     {info.icon}
                                     <div className='projects_box-header'>{info.heading}</div>
                                     <div className='projects_box-p'>{info.text}</div>
-                                    <a href={info.gitHub} target='_blank'>GitHub</a>
+                                    <a href={info.gitHub} target='_blank'>GitHub |</a>
                                     <a href={info.deployed} target='_blank'>Website</a>
                                 </div>
                             </div>
