@@ -52,16 +52,15 @@ const Portfolio = () => {
                     </div>
                 </div>
                 {/* //===CARDS WITH PROJECTS======================================================* */}
-                <div className='row'>
+                <div className="row bgMain">
                     {state.map((info) => (
-                        <div className="col-sm-6 d-flex align-items-stretch">
-                            <div className="card w-100 shadow-lg p-3 mb-5 bg-white rounded">
-                                <div className="card-body">
-                                    <h5 className="card-title">{info.heading}</h5>
-                                    <p className="card-text">{info.text}</p>
-                                    <a href={info.gitHub} target='_blank' className="btn btn-primary">Code</a>
-                                    <a href={info.deployed} target='_blank' className="btn btn-primary">Website</a>
-                                </div>
+                        <div className="col-4 bgMain">
+                            <div className='projects__box'>
+                                {info.icon}
+                                <div className='projects_box-header'>{info.heading}</div>
+                                <div className='projects_box-p'>{info.text}</div>
+                                <a href={info.gitHub} target='_blank'>GitHub |</a>
+                                <a href={info.deployed} target='_blank'>Website</a>
                             </div>
                         </div>
                     ))}
@@ -73,16 +72,3 @@ const Portfolio = () => {
 
 export default Portfolio;
 
-// <div className="row bgMain">
-                        // {state.map((info) => (
-                            // <div className="col-4 bgMain">
-                                // <div className='projects__box'>
-                                    // {info.icon}
-                                    // <div className='projects_box-header'>{info.heading}</div>
-                                    // <div className='projects_box-p'>{info.text}</div>
-                                    // <a href={info.gitHub} target='_blank'>GitHub |</a>
-                                    // <a href={info.deployed} target='_blank'>Website</a>
-                                // </div>
-                            // </div>
-                        // ))}
-                    // </div> 

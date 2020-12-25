@@ -188,6 +188,11 @@ body  {
     color: #dfdfdf;
   }
 
+  #projectCards{
+    margin: 20px 5px 20px 5px;
+    padding: 30px;
+  }
+
   /* ===ABOUT================================================================ */
   .about {
     width: 100%;
@@ -227,3 +232,4 @@ body  {
   .info__contacts .col-6 {
     margin: 10px 0;
   }
+
