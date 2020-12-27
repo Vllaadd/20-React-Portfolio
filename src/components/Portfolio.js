@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import './Portfolio.css';
 
 const Portfolio = () => {
     const [header] = useState({

@@ -1,0 +1,62 @@
+.projects{
+    background: #1f2235;
+    padding: 100px 0;
+    color: #fff;
+}
+.common {
+  width: 33.33333333333333%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #ff4a57;
+  font-size: 16px;
+}
+.mainHeader {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.mainContent {
+  font-size: 16px;
+  color: #dfdfdf;
+}
+.commonBorder {
+  background: #ff4a57;
+  height: 3px;
+  width: 100px;
+  margin: 30px auto;
+}
+/* === PROJECT CARDS ======================================================= */
+
+.col-4{
+    width: 100%;
+  }
+  
+  
+    .projects_box {
+      padding: 40px;
+      background: #23263a;
+      color: #fff;
+      margin: 20px;
+      transition: all 0.5s linear;
+      width: auto;
+      height: 100%;
+    }
+    .projects_box:hover {
+      background: #ff4a57;
+    }
+   
+    .projects_box-header {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 15px;
+    }
+    .projects_box-p {
+      font-size: 14px;
+      color: #dfdfdf;
+    }
+  

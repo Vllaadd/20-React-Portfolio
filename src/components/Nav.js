@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Nav.css'
 
 const Nav = () => {
     const [state, setState] = useState(true);

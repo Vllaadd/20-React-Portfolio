@@ -1,0 +1,38 @@
+.about {
+    width: 100%;
+    background: #23263a;
+    padding: 100px 0;
+  }
+  .about_img {
+    padding: 30px;
+  }
+  .about_img img {
+    width: 300px;
+    height: 400px;
+  }
+  .about_info {
+    color: #fff;
+  }
+  .about_info h1 {
+    margin-bottom: 30px;
+  }
+  .about_info-p1 {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .about_info-p2 {
+    font-size: 14px;
+  }
+  
+  .info_contacts {
+    margin-top: 20px;
+  }
+  .info_contacts strong {
+    color: #ff4a57;
+  }
+  .info_contacts p {
+    margin-top: 3px;
+  }
+  .info_contacts .col-6 {
+    margin: 10px 0;
+  }

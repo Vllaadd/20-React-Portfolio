@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare, FaLinkedin } from "react-icons/fa";
+import './Banner.css';
 
 
 const Banner = () =>{
