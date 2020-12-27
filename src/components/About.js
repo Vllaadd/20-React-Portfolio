@@ -17,7 +17,7 @@ const About = () => {
         <div className='about'>
             <div className='container'>
                 <div className='common'>
-                    {/* ===THE WELCOME TITLE AND TEXT============================== */}
+                    {/* ===THE WELCOME TITLE======================================== */}
                     <h1 className='mainHeader'>{header.subHeader}</h1>
                     <p className='mainContent'>{header.text}</p>
                     <div className='commonBorder'></div>
@@ -41,7 +41,7 @@ const About = () => {
                             <div className='info_contacts'>
                                 <div className='row'>
                                 {state.map((info) => (
-                                    <div>
+                                    <div className='col-6'>
                                         <strong>{info.title}</strong>
                                         <p>{info.text}</p>
                                     </div>
