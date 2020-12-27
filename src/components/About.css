@@ -1,3 +1,12 @@
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.col-6{
+  width: 50%;
+}
 .about {
     width: 100%;
     background: #23263a;
@@ -19,9 +28,6 @@
   .about_info-p1 {
     font-size: 14px;
     margin-bottom: 20px;
-  }
-  .about_info-p2 {
-    font-size: 14px;
   }
   
   .info_contacts {
