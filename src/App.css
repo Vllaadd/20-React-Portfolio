@@ -29,7 +29,7 @@ body  {
     display: flex;
     height: 100px;
     align-items: center;
-    justify-content:end;
+    justify-content: end;
 }
 
 .navbar_left-logo img{
@@ -160,24 +160,26 @@ body  {
     margin: 30px auto;
   }
 
+/* === PROJECT CARDS ======================================================= */
+
+.col-4{
+  width: 100%;
+}
+
+
   .projects__box {
     padding: 40px;
     background: #23263a;
     color: #fff;
     margin: 20px;
     transition: all 0.5s linear;
+    width: auto;
+    height: 100%;
   }
   .projects__box:hover {
     background: #ff4a57;
   }
-  .commonIcons {
-    font-size: 40px;
-    color: #ff4a57;
-    margin-bottom: 15px;
-  }
-  .projects__box:hover .commonIcons {
-    color: #fff;
-  }
+ 
   .projects__box-header {
     font-size: 20px;
     font-weight: 500;
@@ -186,11 +188,6 @@ body  {
   .projects__box-p {
     font-size: 14px;
     color: #dfdfdf;
-  }
-
-  #projectCards{
-    margin: 20px 5px 20px 5px;
-    padding: 30px;
   }
 
   /* ===ABOUT================================================================ */

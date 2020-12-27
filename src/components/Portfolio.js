@@ -51,7 +51,7 @@ const Portfolio = () => {
                         <div className='commonBorder'></div>
                     </div>
                 </div>
-                {/* //===CARDS WITH PROJECTS======================================================* */}
+                {/* //=== PROJECT CARDS ============================================== */}
                 <div className="row bgMain">
                     {state.map((info) => (
                         <div className="col-4 bgMain">
