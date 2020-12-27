@@ -33,7 +33,7 @@
 /* === PROJECT CARDS ======================================================= */
 
 .col-4{
-    width: 100%;
+    width: 33.33333333333333%;
   }
   
   
@@ -43,8 +43,6 @@
       color: #fff;
       margin: 20px;
       transition: all 0.5s linear;
-      width: auto;
-      height: 100%;
     }
     .projects_box:hover {
       background: #ff4a57;

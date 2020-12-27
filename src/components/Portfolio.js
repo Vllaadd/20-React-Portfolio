@@ -41,7 +41,7 @@ const Portfolio = () => {
         }
     ]);
     return (
-        //===HEADER====================================================================
+//===HEADER====================================================================
         <div className='projects'>
             <div className='container'>
                 <div className='projects_header'>
@@ -51,20 +51,20 @@ const Portfolio = () => {
                         <p className='mainContent'>{header.text}</p>
                         <div className='commonBorder'></div>
                     </div>
-                </div>
-                {/* //=== PROJECT CARDS ============================================== */}
-                <div className="row bgMain">
-                    {state.map((info) => (
-                        <div className="col-4 bgMain">
-                            <div className='projects__box'>
-                                {info.icon}
-                                <div className='projects_box-header'>{info.heading}</div>
-                                <div className='projects_box-p'>{info.text}</div>
-                                <a href={info.gitHub} target='_blank'>GitHub |</a>
-                                <a href={info.deployed} target='_blank'>Website</a>
+{/* //=== PROJECT CARDS ============================================== */}
+                    <div className="row bgMain">
+                        {state.map((info) => (
+                            <div className="col-4 bgMain">
+                                <div className='projects_box'>
+                                    {info.icon}
+                                    <div className='projects_box-header'>{info.heading}</div>
+                                    <div className='projects_box-p'>{info.text}</div>
+                                    <a href={info.gitHub} target='_blank'>GitHub |</a>
+                                    <a href={info.deployed} target='_blank'>Website</a>
+                                </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>
