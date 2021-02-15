@@ -9,8 +9,8 @@ const About = () => {
     const [state] = useState([
         { id: 1, title: 'Name:', text: 'Vladimir Zizic' },
         { id: 2, title: "Email:", text: 'vladzizic@gmail.com' },
-        { id: 4, title: "LinkedIn:", text: 'https://www.linkedin.com/in/vladimir-zizic-bb3756134' },
-        { id: 5, title: 'GitHub:', text: 'https://github.com/Vllaadd' }
+        { id: 4, title: "LinkedIn:", text: <a href='https://www.linkedin.com/in/vladimir-zizic-bb3756134' target='_blank'>LinkedIn</a> },
+        { id: 5, title: 'GitHub:', text: <a href='https://github.com/Vllaadd'target='_blank'>GitHub</a> }
     ])
     return (
         <div className='about'>

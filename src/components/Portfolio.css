@@ -46,6 +46,7 @@
     }
     .projects_box:hover {
       background: #ff4a57;
+      box-shadow: 0 25px 60px rgba(235, 10, 10, 3);
     }
    
     .projects_box-header {
@@ -57,4 +58,10 @@
       font-size: 14px;
       color: #dfdfdf;
     }
+
+    .projects_box:hover ~ .projects{
+      filter: blur(10px);
+    }
+
+
   
