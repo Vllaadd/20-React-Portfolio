@@ -34,10 +34,16 @@ const Portfolio = () => {
             text: 'This is an app where we are able to send this app to our friends who can vote for which restaurant, bar, vacation we wanna do.'
         }, {
             id: 5,
-            gitHub: '',
-            deployed: '',
-            heading: 'Project 3',
-            text: 'Project 3 is still in making. '
+            gitHub: 'https://github.com/Vllaadd/10-Employee-Tracker',
+            deployed: 'https://employee-directory-react-class.herokuapp.com/',
+            heading: 'Employee Tracker',
+            text: 'The task in this project is to architect and build a solution for managing a companys employees using node, inquirer, and MySQL.'
+        }, {
+            id: 6,
+            gitHub: 'https://github.com/Vllaadd/19-User-Directory',
+            deployed: 'https://employee-directory-react-class.herokuapp.com/',
+            heading: 'User Directory',
+            text: 'This is an application that displays an employee directory using react. The employees can be filters by name.'
         }
     ]);
     return (
