@@ -34,10 +34,12 @@
 
 .col-4{
     width: 33.33333333333333%;
+    margin-bottom: 20px;
   }
   
   
     .projects_box {
+      height: 100%;
       padding: 40px;
       background: #23263a;
       color: #fff;
@@ -57,10 +59,6 @@
     .projects_box-p {
       font-size: 14px;
       color: #dfdfdf;
-    }
-
-    .projects_box:hover ~ .projects{
-      filter: blur(10px);
     }
 
 
