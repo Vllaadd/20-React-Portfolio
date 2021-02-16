@@ -10,9 +10,9 @@ function App() {
     <Router>
       <div>
         <Nav />
-        <Route path='/home' component={Banner} />
-        <Route path='/about' component={About} />
-        <Route path='/portfolio' component={Portfolio} />
+        <Route exact path='/' component={Banner} />
+        <Route exact path='/about' component={About} />
+        <Route exact path='/portfolio' component={Portfolio} />
       </div>
     </Router>
   );

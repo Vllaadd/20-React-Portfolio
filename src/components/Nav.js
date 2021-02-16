@@ -16,7 +16,7 @@ const Nav = () => {
                     </ul>
 {/* === NAVBAR RIGHT ================================================== */}
                     <ul className='navbar_right'>
-                        <Link to='/home'>
+                        <Link to='/'>
                             <li>Home</li>
                         </Link>
                         <Link to='/about'>
